@@ -1,64 +1,29 @@
-# JeevanAhaar 🍱
+# JeevanAhaar 
 
-**JeevanAhaar** is a real-time Android and Web-based application designed to connect food donors — such as restaurants, grocery stores, and individuals — with charities and NGOs. The goal is to reduce food waste and promote food security by ensuring surplus edible food reaches people in need.
+**JeevanAhaar** is a real-time food donation platform designed to bridge the gap between food donors and charities. It aims to reduce food waste and support local communities by enabling users to donate excess food and schedule pickups through a user-friendly interface.
 
-## 🌟 Features
+## 🚀 Features
 
-### ✅ For Donors:
-- 📦 Easy donation form submission
-- 🕒 Real-time pickup scheduling
-- 📍 Live location tracking for pickups
-- 📊 Donation history and analytics
-
-### ✅ For Charities:
-- 🔔 Real-time donation notifications
-- 📌 Interactive map to view available food donations
-- 📅 Pickup scheduling system
-
-### ✅ For Admin:
-- 🧑‍💼 Manage users and donation requests
-- 📈 View platform-wide analytics and donation impact
-- 📬 Send broadcast notifications and updates
-
----
+- 🔄 Real-time food donation and pickup scheduling
+- 📍 Location-based donor-charity matching
+- 📊 Dashboard for donation tracking and analytics
+- 🔔 Notifications and reminders for pickups
+- 💬 Interactive UI/UX with JavaScript enhancements
+- 🔐 Secure login for donors and charities
+- 🧾 Database integration for persistent data
 
 ## 🛠️ Tech Stack
 
-| Layer            | Tech Used                     |
-|------------------|-------------------------------|
-| Frontend (Web)   | HTML, CSS, JavaScript         |
-| Frontend (Android) | Java, Android Studio          |
-| Backend          | Node.js / Java Spring Boot (choose based on implementation) |
-| Database         | MySQL / Firebase Realtime DB  |
-| Authentication   | Firebase Auth / JWT           |
-| APIs             | Google Maps API, Firebase Cloud Messaging |
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL / SQLite
+- **Tools:** VS Code, GitHub
 
----
 
-## 📱 Screenshots
 
-> *Add relevant screenshots of your app's UI here for better visualization.*
+## 📦 Installation
 
----
-
-## 🗃️ Database Schema (Example)
-
-- **Users**
-  - `user_id`, `name`, `email`, `role` (donor/charity/admin), `location`
-
-- **Donations**
-  - `donation_id`, `user_id`, `food_type`, `quantity`, `expiry_time`, `pickup_status`, `timestamp`
-
-- **Pickups**
-  - `pickup_id`, `donation_id`, `charity_id`, `scheduled_time`, `status`
-
----
-
-## 🚀 Getting Started
-
-### 🖥️ Web App
-```bash
-git clone https://github.com/YOUR_USERNAME/jeevanahaar.git
-cd jeevanahaar
-npm install
-npm start
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/SNOWDEN-07/JeevanAhaar.git
+   cd JeevanAhaar
